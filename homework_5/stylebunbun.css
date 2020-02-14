@@ -1,0 +1,486 @@
+header {
+text-align: center;
+}
+
+html {
+	width:100%;
+	overflow-x:hidden;
+}
+
+/*Navigation bar*/
+.navbar {
+	overflow: hidden;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+	border-bottom-color: #C4C4C4;
+}
+
+/* the links inside the navigation bar*/
+.navbar a {
+	float: left;
+	display: block;
+	color:#38537D;
+	text-align: center;
+	margin: 5px 64px;
+	font-size: 23px;
+	line-height: 110px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "Avenir LT Std";
+}
+
+.navbar img {
+	height: 85%;
+	width:85%;
+}
+
+.container {
+  top: 100px;
+  text-align: left;
+  height: 630px;
+  overflow: hidden;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 125px;
+  left: 55px;
+  font-size:82px;
+  line-height: 92px;
+  color: white;
+  z-index: 2;
+  border: 1px;
+  border-color: #848484;
+  text-shadow: 0px 4px 4px rgba(0,0,0,.25);
+}
+
+.deliver {
+	position: absolute;
+	top: 430px;
+	left: 55px;
+	font-size: 30px;
+	line-height: 42px;
+	color: #001331;
+	z-index: 5;
+	text-align: left;
+}
+
+.ordernow {
+	position: absolute;
+	background-color: #001B48;
+	width:408px;
+	height:75px;
+	left: 55px;
+	top: 510px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px solid #010205;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ordernow h2 {
+	color: white;
+	font-size: 28px;
+	margin-top: 20px;
+}
+
+.famousbuns {
+	background-color: rgba(120,159,223,.08);
+	position: static;
+	top: 690px;
+	height: 580px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.ourfamousbuns {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 55px;
+	font-size: 50px;
+	line-height: 72px;
+	color: #233654;
+	z-index: 5;
+}
+
+.seebakerymenu {
+	position: absolute;
+	background-color: #001B48;
+	width:300px;
+	height:60px;
+	margin-left: 962px;
+	margin-top: 30px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px solid #010205;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.seebakerymenu h2 {
+	color: white;
+	font-size: 20px;
+}
+
+.original {
+	width:300px;
+	height: 400px;
+	position:absolute;
+	margin-left: 55px;
+	margin-top:135px;
+}
+
+.blackberry {
+	width:300px;
+	height: 400px;
+	position:absolute;
+	margin-left: 503px;
+	margin-top:135px;
+}
+
+.pumpkinspice {
+	width:300px;
+	height: 400px;
+	position:absolute;
+	margin-left: 962px;
+	margin-top:135px;
+}
+
+.pagecontainer {
+	position: relative;
+	height: 100%;
+}
+
+.bottomfooter {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(56, 83, 125, 0.29);
+	text-align: center;
+	color:#001B48;
+	font-size: 18px;
+	line-height: 22px;
+	bottom: -200px;
+}
+
+.bottomfooter img {
+	margin-top: 20px;
+	position: static;
+	margin-bottom: -25px;
+}
+.menubottomfooter img {
+	margin-top: 20px;
+	position: static;
+	margin-bottom: -25px;
+}
+body {
+	height: 100%;
+}
+
+.menubottomfooter{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(56, 83, 125, 0.29);
+	text-align: center;
+	color:#001B48;
+	font-size: 18px;
+	line-height: 22px;
+	top: 1252px;
+}
+.menu {
+	background-color: rgba(120, 159, 223, 0.08);
+	width: 100%;
+	position: absolute;
+	height: 1152px;
+	top:100px;
+	overflow: hidden;
+}
+
+.customerfavs {
+	position: absolute;
+	margin-top: 65px;
+	margin-left:1040px;
+	color:#001331;
+	font-size: 20px;
+}
+
+.menuorder {
+	background-color: rgba(136, 139, 152, 0.7);
+	z-index:1;
+	width:100%;
+	position: absolute;
+	height:1152px;
+	overflow:hidden;
+	align-content: center;
+}
+.star {
+	position:absolute;
+	margin-top:60px;
+	margin-left: 1000px;
+}
+
+#productdescription {
+	width:300px;
+	height: 400px;
+	position:absolute;
+	margin-left: 55px;
+	margin-top:135px;
+}
+
+#carameldescription {
+	width:300px;
+	height: 400px;
+	position:absolute;
+	margin-left: 493px;
+	margin-top:135px;
+}
+/*
+.caramelpecan {
+	width:300px;
+	height:400px;
+	position: absolute;
+	margin-left: 493px;
+	margin-top:135px;
+}*/
+
+.originalmenu {
+	width:300px;
+	height:400px;
+	position: absolute;
+	margin-left: 928px;
+	margin-top:135px;
+}
+
+.pumpkinspicemenu {
+	width:300px;
+	height: 400px;
+	position:absolute;
+	margin-left: 493px;
+	margin-top:630px;
+}
+
+.walnut {
+	width:300px;
+	height:400px;
+	position: absolute;
+	margin-left: 928px;
+	margin-top:630px;
+}
+.originalgf {
+	width:300px;
+	height:400px;
+	position: absolute;
+	margin-left: 55px;
+	margin-top:630px;
+}
+
+.bottomfooter2 {
+	position: absolute;
+	top:1250px;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(56, 83, 125, 0.29);
+	text-align: center;
+	color:#001B48;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.bottomfooter2 img {
+	margin-top: 20px;
+	position: static;
+	margin-bottom: -25px;
+}
+
+.ordercontainer {
+	position: absolute;
+	top: 30px;
+	height:450px;
+	width: 800px;
+	z-index: 5;
+	left: 270px;
+	background-color:white;
+}
+
+.blackberryalone img{
+	position:absolute;
+	left:25px;
+	top:30px;
+}
+
+.blackberrytitle {
+	position: absolute;
+	top: 35px;
+	left: 420px;
+	font-size: 25px;
+	color: #001331;
+}
+
+.carameltitle {
+	position: absolute;
+	top: 35px;
+	left: 390px;
+	font-size: 25px;
+	color: #001331;
+}
+
+.starblackberry {
+	position:absolute;
+	top: 35px;
+	left: 385px;
+}
+
+.blackberrydescription {
+	color: black;
+	font-size: 16px;
+	line-height: 180%;
+	margin-left:390px;
+	margin-top:80px;
+}
+
+.cancel {
+	position:absolute;
+	top: 20px;
+	left: 745px;
+}
+
+.cancel img{
+	height: 85%;
+	width:85%;
+}
+
+.glazingdropdown {
+	position:absolute;
+	top: 250px;
+	left: 390px;
+	background-color: #001B48;
+	color: white;
+	padding: 7px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+#glazing {
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.quantitydropdown {
+	position:absolute;
+	top: 250px;
+	left:610px;
+	background-color: #001B48;
+	color: white;
+	padding: 7px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+#quantity {
+	padding-left: 10px;
+	font-size: 12px;
+}
+/*
+.glazingchoose {
+	position:absolute;
+	top: 250px;
+	left:390px;
+}
+
+.glazingchoose img{
+	height: 70%;
+	width: 70%;
+}
+
+.glazingoptions {
+	position:absolute;
+	background-color: white;
+	border: 1px solid #001331;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	left: 452px;
+	top:285px;
+	width: 145px;
+}
+
+.glazing {
+	margin: 5px;
+	font-size: 14px;
+}
+
+.sugarmilk {
+	position:absolute;
+	margin-left: 70px;
+	margin-top:-27px;
+	font-size: 13px;
+}
+
+.quantitychoose {
+	position:absolute;
+	top: 250px;
+	left:610px;
+}
+.quantitychoose img{
+	height: 86%;
+	width: 86%;
+}
+
+.quantityoptions {
+	position:absolute;
+	background-color: white;
+	border: 1px solid #001331;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	left: 679px;
+	top:285px;
+	width: 94px;
+}
+
+.quantitychoice {
+	margin: 5px;
+	font-size: 14px;
+}
+
+.quantity12 {
+	margin-left:80px;
+	position: absolute;
+	margin-top: -27px;
+	font-size: 13px;
+}
+*/
+.addtocart {
+	position: absolute;
+	background-color: #001B48;
+	width:170px;
+	height:40px;
+	left: 610px;
+	top: 370px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px solid #010205;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.addtocart h2 {
+	color: white;
+	font-size: 16px;
+	margin-top:10px;
+}
+
+.total {
+	position:absolute;
+	top: 353px;
+	left: 395px;
+	font-size: 18px;
+}
+
+
+/** STYLE TOTAL STUFF!!*/
